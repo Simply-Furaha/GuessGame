@@ -4,21 +4,25 @@ public class GuessTheWord {
 
     private Words randomWords = new Words();
 
-    public void start(){
+    public void start() {
 
         do {
             showWord();
             getInput();
             checkInput();
-        }while (play);
+        } while (play);
     }
-        void showWord(){
-            System.out.println(randomWords);
-        }
-        void getInput(){
-            System.out.println("getInput");
-        }
-        void checkInput(){
+
+    void showWord() {
+        System.out.println(randomWords);
+    }
+
+    void getInput() {
+        System.out.println("getInput");
+    }
+
+    void checkInput() {
         System.out.println("checkInput");
-        }
+    }
+
 }
